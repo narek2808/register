@@ -1,0 +1,82 @@
+ul{
+    list-style-type:none;
+    display:flex ;
+    margin-left:20% ;
+}
+ul>a>li{
+    margin:20px ;
+    font-size:20px ;
+    color:white ;
+    
+
+}
+ul>a{
+    text-decoration:none ;
+}
+body{
+    background-image:url(img/car.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.regbg{
+    background-image:url(img/car2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music{
+    background-image:url(img/musbg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music>a>button{
+    width:150px ;
+    height:30px ;
+    margin-top:15px ;
+    border-radius:10px ;
+    color: white;
+    background-color:blue ;
+    font-size:15px ;
+}
+.music>p{
+    font-size: 30px;
+    color: white;
+
+}
+.music>audio{
+    width: 250px;
+    height: 30px;
+    display:flex ;
+    flex-direction:column ;
+}
+
+.Register{
+    width:100% ;
+    height:auto ;
+    display:flex ;
+    flex-direction:column ;
+    align-items:center ;
+    margin-top:15% ;
+}
+.Register input{
+    width:250px ;
+    height:30px ;
+    margin-top:15px ;
+}
+.Register>h1{
+    font-size:30px ;
+    text-transform:uppercase ;
+    color: white;
+}
+.Register>a>button{
+    width:150px ;
+    height:30px ;
+    margin-top:15px ;
+    border-radius:10px ;
+    color: white;
+    background-color:blue ;
+    font-size:15px ;
+}
+@media screen {
+    
+}
